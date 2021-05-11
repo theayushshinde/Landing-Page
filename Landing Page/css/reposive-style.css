@@ -1,0 +1,119 @@
+details[open] summary ~ * {
+    animation: sweep .5s ease-in-out;
+  }
+  @keyframes sweep {
+    0%    {opacity: 0; margin-top: -10px}
+    100%  {opacity: 1; margin-top: 0px}
+  }
+
+
+
+
+
+
+/*== Ipad pro media ===*/
+@media (max-width: 1200px) {
+    }
+@media  (max-width: 1030px){
+
+    .header .navbar.nav a.nav-link{
+        padding:0.8rem 1rem;
+
+    }
+   
+    /* Banner Css */
+    .banner_content h4{
+        padding-top: 6rem;
+    }
+    .banner_content h2{
+        font-size: 3.3rem;
+    }
+    .bg-hero{
+        min-height: 510px;
+    }
+    /*== Footer CSS ==*/
+.footer{
+    padding-top:3rem;
+    background-color: var(--primary-color);
+    clip-path: polygon(68% 1%, 100% 0, 100% 97%, 100% 100%, 0 100%, 0 3%);
+}
+}
+    
+    /*== ipad media ===*/
+@media (max-width:992px){
+    .menu-toggle{
+        position: relative;
+
+    }
+    .menu-toggle span{
+        width: 2 rem;
+        height: 0.2rem;
+        display:block;
+        background: var(--primary-color);
+        margin: 0.35rem;
+        --webkit-transition:all 0.3s;
+        --moz-transition:all 0.3s;
+        -ms-trasition:all 0.3s;
+        transition: all 0.3s;
+    }
+    .menu-toggle.active span:nth-child(1){
+        transform: rotate(45deg);
+        position: relative;
+        top:0.2rem;
+    }
+    .menu-toggle.active span:nth-child(2){
+        display: none;
+    }
+    .menu-toggle.active span:nth-child(3){
+        transform: rotate(-45deg);
+        position: relative;
+        top: -0.3rem;
+    }
+    #navsupportedcontent ul{
+        text-align: center ;
+    }
+
+    /* banner css*/
+    .banner_content h4{
+        padding-top: 4rem;
+        font-size: 2rem;
+    }
+    .banner_content h2{
+        font-size: 2.5rem;
+        width: 100%;
+    }
+    .bg-hero{
+        min-height: 300px;
+    }
+    /* team */
+    .our-team{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:767px){
+    /* header section */
+    .header .navbar{
+        padding:0.5rem 0;
+    }
+    /* banner css */
+   .bg-hero{
+       clip-path:polygon(68% 0, 100% 0, 100% 97%, 38% 99%, 0 100%, 0 0);
+   }
+   /* feature css */
+   .features{
+    clip-path:polygon(68% 0, 100% 0, 100% 97%, 38% 99%, 0 100%, 0 3%);
+
+   }
+
+   /*== Footer CSS ==*/
+.footer.widget{
+    margin-top:2rem;
+}
+
+
+}
+
+    /*=== mobile media ===*/
+
+@media (max-width: 576px){
+    }
